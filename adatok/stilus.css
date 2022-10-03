@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("20221001_095357.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.99s ease-in-out;
+    border: 2px solid gray;
+    filter: grayscale(50%);
+}
+
+img:hover {
+    border: 2px solid black;
+    transform: rotate(360deg) scale(1.1);
+    filter: grayscale(10%);
+}
+
+.nevjegy {
+    width: 500px;
+    height: 400px;
+    background-color: hsla(0, 0%, 100%, .7);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+p {
+    text-align: justify;
+}
+
+.felso {
+    position: relative;
+    top: -80px;
+    width: 80%;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    line-height: 1em;
+}
+
+.nev {
+    letter-spacing: .07em;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.kozep {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    border-top: 1px solid black;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.szoveg {
+    padding: 10px;
+    margin: 0 auto;
+    width: 90%;
+    letter-spacing: .04em;
+    line-height: 1.3em;
+}
+
+.linkek {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    letter-spacing: .6em;
+}
+
+a {
+    filter: grayscale(70%);
+}
+
+a:hover {
+    color: rgb(59, 110, 7);
+    filter: grayscale(10%);
+
+}
+
+h2 {
+    padding-bottom: 13px;
+}
