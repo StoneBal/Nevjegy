@@ -15,14 +15,26 @@ body {
     font-size: 18px;
 }
 
+.nevjegy {
+    width: 450px;
+    background-color: hsla(0, 0%, 100%, .7);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+    max-width: calc(100vw - 10px);
+    padding-bottom: 5px;
+}
+
+.felso, img, .szoveg, .kozep {
+    margin: 0 auto;
+}
+
 img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: 0 auto;
     display: block;
     transition: all 0.99s ease-in-out;
-    border: 2px solid gray;
+    border: 1px solid gray;
     filter: grayscale(50%);
 }
 
@@ -32,14 +44,6 @@ img:hover {
     filter: grayscale(10%);
 }
 
-.nevjegy {
-    width: 500px;
-    height: 400px;
-    background-color: hsla(0, 0%, 100%, .7);
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px gray;
-}
-
 p {
     text-align: justify;
 }
@@ -47,37 +51,30 @@ p {
 .felso {
     position: relative;
     top: -80px;
-    width: 80%;
-    margin: 0 auto;
     letter-spacing: .05em;
     line-height: 1em;
+}
+
+.nev, .linkek {
+    text-align: center;
 }
 
 .nev {
     letter-spacing: .07em;
     line-height: 1.3em;
-    text-align: center;
 }
 
 .kozep {
-    text-align: center;
     position: relative;
     top: -30px;
     border-top: 1px solid black;
     width: 95%;
-    margin: 0 auto;
 }
 
 .szoveg {
-    padding: 10px;
-    margin: 0 auto;
-    width: 90%;
+    padding: 15px;
     letter-spacing: .04em;
     line-height: 1.3em;
-}
-
-.linkek {
-    text-align: center;
 }
 
 ul {
@@ -96,7 +93,6 @@ a {
 a:hover {
     color: rgb(59, 110, 7);
     filter: grayscale(10%);
-
 }
 
 h2 {
