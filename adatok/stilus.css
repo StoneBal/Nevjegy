@@ -10,9 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("20221001_095357.jpg") no-repeat center center fixed;
+    background: url("20220718_154259.jpg") no-repeat center center fixed;
     background-size: cover;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .nevjegy {
@@ -24,11 +24,13 @@ body {
     padding-bottom: 5px;
 }
 
-.felso, img, .szoveg, .kozep {
+.felso, .szoveg, .kozep {
+    width: 90%;
     margin: 0 auto;
 }
 
 img {
+    margin: 0 auto;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -61,20 +63,27 @@ p {
 
 .nev {
     letter-spacing: .07em;
-    line-height: 1.3em;
+    line-height: 1.7em;;
 }
 
 .kozep {
     position: relative;
-    top: -30px;
+    top: -40px;
     border-top: 1px solid black;
     width: 95%;
 }
 
 .szoveg {
-    padding: 15px;
+    padding-top: 15px;
     letter-spacing: .04em;
     line-height: 1.3em;
+}
+
+.linkek {
+    border-top: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 ul {
@@ -87,14 +96,39 @@ li {
 }
 
 a {
-    filter: grayscale(70%);
-}
-
-a:hover {
-    color: rgb(59, 110, 7);
-    filter: grayscale(10%);
+    color: gray;    
 }
 
 h2 {
     padding-bottom: 13px;
+}
+
+
+.fa-solid:hover {
+    color: red;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
+
+.fa-twitter:hover {
+    color: rgb(29 161 242);
+}
+
+.fa-discord:hover {
+    color: rgb(88, 101, 242);
+}
+
+.fa-facebook-f:hover {
+    color: rgb(66 103 178);
+}
+
+.fa-instagram:hover {
+    color: #833AB4;
+}
+
+.fa-github:hover {
+    color:black;
 }
