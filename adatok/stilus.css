@@ -133,9 +133,88 @@ h2 {
     color:black;
 }
 
+/* === Képernyő méretezés === */
+
 @media (min-with: 992px) {
     body {
         height: 50vh;
+    }
+    
+}
+
+@media (max-height: 660px) {
+    body {
+        height: 100vh;
+    }
+    
+}
+
+@media (max-height: 634px) {
+    body {
+        height: 110vh;
+    }
+    
+}
+
+@media (max-height: 579px) {
+    body {
+        height: 120vh;
+    }
+    
+}
+
+@media (max-height: 529px) {
+    body {
+        height: 130vh;
+    }
+    
+}
+
+@media (max-height: 489px) {
+    body {
+        height: 140vh;
+    }
+    
+}
+
+@media (max-height: 455px) {
+    body {
+        height: 150vh;
+    }
+    
+}
+
+@media (max-height: 425px) {
+    body {
+        height: 160vh;
+    }
+    
+}
+
+@media (max-height: 395px) {
+    body {
+        height: 170vh;
+    }
+    
+}
+
+@media (max-height: 377px) {
+    body {
+        height: 180vh;
+    }
+    
+}
+
+@media (max-height: 355px) {
+    body {
+        height: 200vh;
+    }
+    
+}
+
+@media (max-height: 320px) {
+    body {
+        height: 250vh;
     }
     
 }
