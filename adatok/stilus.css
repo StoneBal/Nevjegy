@@ -12,7 +12,7 @@ body {
     height: 100vh;
     background: url("20220718_154259.jpg") no-repeat center center fixed;
     background-size: cover;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .nevjegy {
@@ -21,7 +21,7 @@ body {
     border-radius: 20px;
     box-shadow: 10px 10px 20px gray;
     max-width: calc(100vw - 10px);
-    padding-bottom: 5px;
+    padding-bottom: 0.4rem;
 }
 
 .felso, .szoveg, .kozep {
@@ -74,7 +74,7 @@ p {
 }
 
 .szoveg {
-    padding-top: 15px;
+    padding-top: 0.9rem;
     letter-spacing: .04em;
     line-height: 1.3em;
 }
@@ -83,7 +83,7 @@ p {
     border-top: 1px solid black;
     width: 75%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 ul {
@@ -100,7 +100,7 @@ a {
 }
 
 h2 {
-    padding-bottom: 13px;
+    padding-bottom: 0.81rem;
 }
 
 
@@ -131,4 +131,11 @@ h2 {
 
 .fa-github:hover {
     color:black;
+}
+
+@media (min-with: 992px) {
+    body {
+        height: 50vh;
+    }
+    
 }
